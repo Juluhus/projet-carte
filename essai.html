@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+
+<style>
+:root {
+  --bg: white;
+  --text: black;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s;
+  font-family: Arial;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: white;
+}
+
+#themeToggle {
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+</style>
+</head>
+
+<body>
+
+<button id="themeToggle">🌙</button>
+
+<h1>Mon site</h1>
+<p>Test du mode sombre</p>
+
+
+
+</body>
+</html>
